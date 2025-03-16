@@ -1,3 +1,5 @@
+<img width="100" src="https://static.vecteezy.com/system/resources/previews/021/495/996/original/chatgpt-openai-logo-icon-free-png.png"></img> 
+<img width="100" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"></img> 
 # RepoInfoAI
 Auto-send prompts to ChatGPT on the website that contains info about an arbitrary GitHub repository.<br>
 The information includes:
