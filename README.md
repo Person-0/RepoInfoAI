@@ -13,6 +13,9 @@ The information includes:
 - Forks
 - Main language
 - Is archived / disabled
+ChatGPT can further be asked about any information related to the given information.
+For example, you may ask it to point out files in which a specific logic of the project may be.
+Or, you may ask it to generate an essay regarding the project. Anything infact.
 
 # Usage (only pc / desktop mode)
 - Start the local server and install the userscript (steps mentioned in Installation Instructions below)
