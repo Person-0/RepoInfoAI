@@ -1,8 +1,21 @@
 # RepoInfoAI
-Auto-send prompts to ChatGPT on the website that contains info about an arbitrary GitHub repository.
+Auto-send prompts to ChatGPT on the website that contains info about an arbitrary GitHub repository.<br>
+The information includes:
+- Name
+- Description
+- Files (including those in subfolders)
+- Content inside .md files
+- Created & Last updated at
+- Open Issues count
+- License
+- Stars
+- Watchers
+- Forks
+- Main language
+- Is archived / disabled
 
 # Usage (only pc / desktop mode)
-- start the local server and install the userscript
+- Start the local server and install the userscript (steps mentioned in Installation Instructions below)
 - Go to https://chatgpt.com
 - Click on RepoInfo button at bottom right.
 - Enter Repo name along with owner (eg. `BluZed/RepoInfoAI`)
