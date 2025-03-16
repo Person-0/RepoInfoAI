@@ -17,7 +17,7 @@ Both of the following are required.
 ## 1. Userscript setup
 (it requests the prompt data from the local server and sends it as chat prompt to ChatGPT)
 - Install tampermonkey browser extension if not installed already
-- Install the userscript from this repository.
+- Install the [userscript from this repository](https://github.com/BluZed/RepoInfoAI/raw/refs/heads/main/web.user.js).
 
 ## 2. Local server setup 
 (it is responsible for the git api requests and parsing the prompts.)
