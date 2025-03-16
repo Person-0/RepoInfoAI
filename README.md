@@ -40,7 +40,7 @@ Both of the following are required.
 
 ## 2. Local server setup 
 (it is responsible for the git api requests and parsing the prompts.)
-- Ensure that you have (Node.js)[https://nodejs.org/en] installed on your system (project tested on Node.js [v20.12.2](https://nodejs.org/download/release/v20.12.2/)).
+- Ensure that you have [Node.js](https://nodejs.org/en) installed on your system (project tested on Node.js [v20.12.2](https://nodejs.org/download/release/v20.12.2/)).
 - Clone this repository OR download the source code as a zip file.
 
 For cloning:
