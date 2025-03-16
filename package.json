@@ -1,0 +1,22 @@
+{
+  "name": "RepoInfoAI",
+  "version": "1.0.0",
+  "description": "Pulls Repository information from github and sends it to ChatGPT website as prompts via the browser userscript.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "ai",
+    "chatgpt",
+    "github"
+  ],
+  "author": "BluZed",
+  "license": "MIT",
+  "dependencies": {
+    "cross-fetch": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
