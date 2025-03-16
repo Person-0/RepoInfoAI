@@ -9,11 +9,6 @@ if(process.env.GHACCESSTOKEN && process.env.GHACCESSTOKEN.length){
     authHeaders["Authorization"] = "token " + process.env.GHACCESSTOKEN
 }
 
-// Send a "pong" for any other path
-app.get("/*", (req, res) => {
-    res.send("pong")
-})
-
 // the only request this app can handle
 app.get("/process-repo", (req, res)=>{
     const repo = req.query["repo"]
@@ -25,6 +20,11 @@ app.get("/process-repo", (req, res)=>{
             res.send(JSON.stringify({error:reason}))
         })
     }
+})
+
+// Send a "pong" for any other path
+app.get("/*", (req, res) => {
+    res.send("pong")
 })
 
 // start local server on specified port or 4070
