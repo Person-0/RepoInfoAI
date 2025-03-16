@@ -20,6 +20,8 @@ ChatGPT can further be asked about any information related to the given informat
 For example, you may ask it to point out files in which a specific logic of the project may be.
 Or, you may ask it to generate an essay regarding the project. Anything infact.
 
+https://github.com/user-attachments/assets/ed70ab32-fe8e-499e-9e98-175e7312bcc9
+
 # Usage (only pc / desktop mode)
 - Start the local server and install the userscript (steps mentioned in Installation Instructions below)
 - Go to https://chatgpt.com
