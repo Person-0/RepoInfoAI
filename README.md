@@ -31,7 +31,7 @@ Improvements and PRs are welcome!<br>
 - Enter Repo name along with owner (eg. `BluZed/RepoInfoAI`)
 - Enter the first prompt you want to ask ChatGPT about.
 - **Important!!!** Allow the script to fetch cross-origin requests if prompted for. This is required to interact with the local server due to [csp headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP) on the website.
-- wait for the results!
+- wait for the results! It may take some time for large repositories.
 - you may also continue the chats.
 
 # Installation Instructions
