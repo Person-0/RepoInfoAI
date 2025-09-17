@@ -1,5 +1,5 @@
-<img width="100" src="https://github.com/BluZed/RepoInfoAI/blob/main/assets/openai_logo.png?raw=true"></img>
-<img width="100" src="https://github.com/BluZed/RepoInfoAI/blob/main/assets/github_logo.png?raw=true"></img>
+<img width="100" src="https://github.com/Person-0/RepoInfoAI/blob/main/assets/openai_logo.png?raw=true"></img>
+<img width="100" src="https://github.com/Person-0/RepoInfoAI/blob/main/assets/github_logo.png?raw=true"></img>
 # RepoInfoAI
 Auto-send prompts to ChatGPT on the website that contains info about an arbitrary GitHub repository.<br>
 The information includes:
@@ -28,7 +28,7 @@ Improvements and PRs are welcome!<br>
 - Start the local server and install the userscript (steps mentioned in Installation Instructions below)
 - Go to https://chatgpt.com
 - Click on RepoInfo button at bottom right.
-- Enter Repo name along with owner (eg. `BluZed/RepoInfoAI`)
+- Enter Repo name along with owner (eg. `Person-0/RepoInfoAI`)
 - Enter the first prompt you want to ask ChatGPT about.
 - **Important!!!** Allow the script to fetch cross-origin requests if prompted for. This is required to interact with the local server due to [csp headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP) on the website.
 - wait for the results! It may take some time for large repositories.
@@ -40,7 +40,7 @@ Both of the following are required.
 ## 1. Userscript setup
 (it requests the prompt data from the local server and sends it as chat prompt to ChatGPT)
 - Install tampermonkey browser extension if not installed already
-- Install the [userscript from this repository](https://github.com/BluZed/RepoInfoAI/raw/refs/heads/main/web.user.js).
+- Install the [userscript from this repository](https://github.com/Person-0/RepoInfoAI/raw/refs/heads/main/web.user.js).
 
 ## 2. Local server setup 
 (it is responsible for the git api requests and parsing the prompts.)
@@ -49,10 +49,10 @@ Both of the following are required.
 
 For cloning:
 ```bash
-git clone https://github.com/BluZed/RepoInfoAI
+git clone https://github.com/Person-0/RepoInfoAI
 ```
 
-For downloading as a zip: [click here](https://github.com/BluZed/RepoInfoAI/archive/refs/heads/main.zip)
+For downloading as a zip: [click here](https://github.com/Person-0/RepoInfoAI/archive/refs/heads/main.zip)
 - Extract the zip contents into a folder.
 - cd into the repo contents.
 ```bash
