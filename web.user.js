@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         RepoInfoAI
-// @namespace    github.com/BluZed
+// @namespace    github.com/Person-0
 // @version      2025-03-15
 // @description  RepoInfo userscript for ChatGPT website.
-// @author       BluZed
+// @author       Person-0
 // @match        https://chatgpt.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=chatgpt.com
 // @grant        unsafeWindow
@@ -123,4 +123,5 @@ function fetch(url, obj){
             }
         })
     })
+
 }
