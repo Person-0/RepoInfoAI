@@ -12,7 +12,7 @@
     "chatgpt",
     "github"
   ],
-  "author": "BluZed",
+  "author": "Person-0",
   "license": "MIT",
   "dependencies": {
     "cross-fetch": "^4.1.0",
