@@ -1,6 +1,8 @@
 <img width="100" src="https://github.com/Person-0/RepoInfoAI/blob/main/assets/openai_logo.png?raw=true"></img>
 <img width="100" src="https://github.com/Person-0/RepoInfoAI/blob/main/assets/github_logo.png?raw=true"></img>
 # RepoInfoAI
+> ChatGPT can access your repositories if prompted without the need of using this program so I have archived this project.
+
 Auto-send prompts to ChatGPT on the website that contains info about an arbitrary GitHub repository.<br>
 The information includes:
 - Name
